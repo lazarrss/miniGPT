@@ -1,0 +1,16 @@
+learning_rate: 3e-4
+device: auto
+eval_iters: 40
+
+dropout: 0.2
+max_iters: 300
+eval_interval: 100
+
+n_embd: 192
+n_head: 6
+n_layer: 4
+
+block_size: 128
+batch_size: 64
+
+checkpoint_interval: 500
